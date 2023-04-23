@@ -1,19 +1,18 @@
-# Introdction to JDBC
+# Soundgood Music School project
 
-A short Java program giving an overview of JDBC concepts.
+Soundgood Music School project is a project in the course Data Storage Paradigms (IV1351) that makes it possible for students to rent their own instruments through the application. The project consists of a SQL database and complex queries that solve specific problems. This project is focused on exploring and analyzing a relational database using SQL queries. The project consists of two main tasks: 
+- Task 3: Writing complex SQL queries to extract data from the database.  
+- Task 4: Designing a new database schema based on the analysis of the existing database and creating SQL scripts to populate the new schema with data.  
 
-## How to execute
+The project application is written in Java.
 
-1. Clone this git repository.
-1. Change to the newly created directory `cd jdbc-intro`
-1. Make sure there is a database which can be reached with the url on lines
-   43-44 or the url on lines 47-48. There are two ways to do this.
-   1. Create a database that can be reached with one of the existing urls. If
-      postgres is used, that is a database called simplejdbc, wich can be
-      reached on port 5432 at localhost, by the user 'postgres' with the
-      password 'postgres'. If MySQL is used, that is a database called
-      simplejdbc, which can be reached on port 3306 at localhost, by the user
-      'root' with the password 'javajava'.
-   1. Change the url to match your database.
-1. Build the project with the command `mvn install`
-1. Run the program with the command `mvn exec:java`
+## Requirements
+To run this project, you need to have the following tools installed:
+- PostgreSQL
+- Java 11
+
+## Installation
+1. Clone this repository to your local machine
+2. Open postgreSQL Workbench and create a new connection to your database.
+3. Open the SQL scripts and execute them to create the database schema and populate it with data.
+
